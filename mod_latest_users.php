@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
 require_once __DIR__ . '/helper.php';
 
 // Получаем данные
-$users = modLatestusersHelper::getUsers($params);
+$users = ModLatestusersHelper::getUsers($params);
 
 // Получаем суффикс класса модуля из параметров и экранируем его
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
@@ -21,7 +21,7 @@ $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 // Подключаем стили
 if ($params->get('include_css', 1))
 {
-	JHtml::stylesheet('mod_latest_users/style.css', false, true, false);
+	JHtml::stylesheet('mod_latest_users/style.css', false, true);
 }
 
 // Подключаем макет вывода
