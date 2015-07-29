@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <extension type="module" version="3.2" method="upgrade" client="site">
-	<name>MOD_LATEST_USERS</name>
-	<author>Вася Пупкин</author>
-	<creationDate>Дата создания</creationDate>
-	<authorEmail>Ваш e-mail</authorEmail>
-	<authorUrl>Ваш сайт</authorUrl>
-	<copyright>Информация о копирайте</copyright>
-	<license>Информация о лицензии</license>
-	<version>1.0.0</version>
+	<name>mod_latest_users</name>
+	<author>Dmitry Rekun</author>
+	<creationDate>29-07-2015</creationDate>
+	<authorEmail>b2z@joomlablog.ru</authorEmail>
+	<authorUrl>http://joomlablog.ru</authorUrl>
+	<copyright>(C) 2014 - 2015 Dmitry Rekun. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<version>1.1.0</version>
 	<description>MOD_LATEST_USERS_DESCRIPTION</description>
 
 	<files>
